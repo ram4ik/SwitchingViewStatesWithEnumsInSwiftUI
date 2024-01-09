@@ -5,11 +5,13 @@
 //  Created by admin on 1/9/24.
 //
 
+import MapKit
 import SwiftUI
 
 struct LoadingView: View {
     var body: some View {
-        Text("Loading...")
+        Map()
+            .mapStyle(.hybrid(elevation: .realistic))
     }
 }
 
